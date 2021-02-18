@@ -1,4 +1,5 @@
 # Project exclude paths
 /out/
-JavaFX-learning.iml
 .idea
+*.iml
+JavaFX-learning.iml
