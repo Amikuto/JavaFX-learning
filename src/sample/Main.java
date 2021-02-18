@@ -52,7 +52,7 @@ public class Main extends Application {
             // Загрузка сведений людей
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("views/main.fxml"));
-            AnchorPane personOverview = (AnchorPane) loader.load();
+            AnchorPane personOverview = loader.load();
 
             // Помещаем сведения в центр корневого макета
             rootLayout.setCenter(personOverview);
@@ -67,18 +67,18 @@ public class Main extends Application {
     }
 
     public Main(){
-//        for (int i = 0; i<25; i++){
-//            personData.add(new Person("Name" + i, "Surename " + i));
-//        }
-        personData.add(new Person("Hans", "Muster"));
-        personData.add(new Person("Ruth", "Mueller"));
-        personData.add(new Person("Heinz", "Kurz"));
-        personData.add(new Person("Cornelia", "Meier"));
-        personData.add(new Person("Werner", "Meyer"));
-        personData.add(new Person("Lydia", "Kunz"));
-        personData.add(new Person("Anna", "Best"));
-        personData.add(new Person("Stefan", "Meier"));
-        personData.add(new Person("Martin", "Mueller"));
+        for (int i = 0; i<25; i++){
+            personData.add(new Person("Name" + i, "Surname " + i));
+        }
+//        personData.add(new Person("Hans", "Muster"));
+//        personData.add(new Person("Ruth", "Mueller"));
+//        personData.add(new Person("Heinz", "Kurz"));
+//        personData.add(new Person("Cornelia", "Meier"));
+//        personData.add(new Person("Werner", "Meyer"));
+//        personData.add(new Person("Lydia", "Kunz"));
+//        personData.add(new Person("Anna", "Best"));
+//        personData.add(new Person("Stefan", "Meier"));
+//        personData.add(new Person("Martin", "Mueller"));
     }
 
     public ObservableList<Person> getPersonData() {
