@@ -1,0 +1,14 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 0987fc905e7c87bbcf6f49f2b43cbffa11a8893e)
++++ b/.gitignore	(date 1614184694598)
+@@ -1,5 +1,4 @@
+ # Project exclude paths
+-/out/
+ .idea
+ *.iml
+ JavaFX-learning.iml

@@ -1,0 +1,26 @@
+Index: .idea/libraries/lib.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/lib.xml	(revision 832c6740bbfb901ff0e17a7a7d4f9290c897a5be)
++++ .idea/libraries/lib.xml	(date 1613659876321)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="lib">
+     <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../JavaModules/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" />
++      <root url="file://$PROJECT_DIR$/../../JavaModules/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="file://$PROJECT_DIR$/../JavaModules/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" />
++      <root url="file://$PROJECT_DIR$/../../JavaModules/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib" />
+     </SOURCES>
+-    <jarDirectory url="file://$PROJECT_DIR$/../JavaModules/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" recursive="false" />
+-    <jarDirectory url="file://$PROJECT_DIR$/../JavaModules/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
++    <jarDirectory url="file://$PROJECT_DIR$/../../JavaModules/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib" recursive="false" />
++    <jarDirectory url="file://$PROJECT_DIR$/../../JavaModules/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib" recursive="false" type="SOURCES" />
+   </library>
+ </component>
+\ No newline at end of file

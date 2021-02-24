@@ -1,0 +1,16 @@
+Index: JavaFX-learning.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- JavaFX-learning.iml	(revision 832c6740bbfb901ff0e17a7a7d4f9290c897a5be)
++++ JavaFX-learning.iml	(date 1613659876303)
+@@ -7,6 +7,6 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" exported="" name="lib" level="project" />
++    <orderEntry type="library" name="lib" level="project" />
+   </component>
+ </module>
+\ No newline at end of file

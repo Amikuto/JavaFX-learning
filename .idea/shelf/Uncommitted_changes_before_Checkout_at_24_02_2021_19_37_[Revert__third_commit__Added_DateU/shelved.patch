@@ -1,0 +1,112 @@
+Index: src/sample/utils/DateUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/sample/utils/DateUtil.java b/src/sample/utils/DateUtil.java
+--- a/src/sample/utils/DateUtil.java	(revision c5622228c2d8fd7f168f07fa04b97c4e0605a04f)
++++ b/src/sample/utils/DateUtil.java	(date 1614184225746)
+@@ -1,32 +1,32 @@
+-//package sample.utils;
+-//
+-//import java.time.LocalDate;
+-//import java.time.format.DateTimeFormatter;
+-//import java.time.format.DateTimeParseException;
+-//
+-//public class DateUtil {
+-//
+-//    private static final String DATE_PATTERN="dd.MM.yyyy";
+-//
+-////    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter;
+-//
+-////    public static String format(LocalDate date){
+-////        if (date == null){
+-////            return null;
+-////        } else {
+-////            return DATE_TIME_FORMATTER.format(date);
+-////        }
+-////    }
+-//
+-//    public static LocalDate parse(String dateString){
+-//        try {
+-//            return DATE_TIME_FORMATTER.parse(dateString, LocalDate::from);
+-//        } catch (DateTimeParseException e){
+-//            return  null;
+-//        }
+-//    }
+-//
+-//    public static boolean validate(String dateString){
+-//        return DateUtil.parse(dateString) != null;
+-//    }
+-//}
++package sample.utils;
++
++import java.time.LocalDate;
++import java.time.format.DateTimeFormatter;
++import java.time.format.DateTimeParseException;
++
++public class DateUtil {
++
++    private static final String DATE_PATTERN="dd.MM.yyyy";
++
++    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern(DATE_PATTERN);;
++
++    public static String format(LocalDate date){
++        if (date == null){
++            return null;
++        } else {
++            return DATE_TIME_FORMATTER.format(date);
++        }
++    }
++
++    public static LocalDate parse(String dateString){
++        try {
++            return DATE_TIME_FORMATTER.parse(dateString, LocalDate::from);
++        } catch (DateTimeParseException e){
++            return  null;
++        }
++    }
++
++    public static boolean validate(String dateString){
++        return DateUtil.parse(dateString) != null;
++    }
++}
+Index: src/sample/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/sample/Main.java b/src/sample/Main.java
+--- a/src/sample/Main.java	(revision c5622228c2d8fd7f168f07fa04b97c4e0605a04f)
++++ b/src/sample/Main.java	(date 1614183810145)
+@@ -67,18 +67,18 @@
+     }
+ 
+     public Main(){
+-//        for (int i = 0; i<25; i++){
+-//            personData.add(new Person("Name" + i, "Surename " + i));
+-//        }
+-        personData.add(new Person("Hans", "Muster"));
+-        personData.add(new Person("Ruth", "Mueller"));
+-        personData.add(new Person("Heinz", "Kurz"));
+-        personData.add(new Person("Cornelia", "Meier"));
+-        personData.add(new Person("Werner", "Meyer"));
+-        personData.add(new Person("Lydia", "Kunz"));
+-        personData.add(new Person("Anna", "Best"));
+-        personData.add(new Person("Stefan", "Meier"));
+-        personData.add(new Person("Martin", "Mueller"));
++        for (int i = 0; i<25; i++){
++            personData.add(new Person("Name" + i, "Surename " + i));
++        }
++//        personData.add(new Person("Hans", "Muster"));
++//        personData.add(new Person("Ruth", "Mueller"));
++//        personData.add(new Person("Heinz", "Kurz"));
++//        personData.add(new Person("Cornelia", "Meier"));
++//        personData.add(new Person("Werner", "Meyer"));
++//        personData.add(new Person("Lydia", "Kunz"));
++//        personData.add(new Person("Anna", "Best"));
++//        personData.add(new Person("Stefan", "Meier"));
++//        personData.add(new Person("Martin", "Mueller"));
+     }
+ 
+     public ObservableList<Person> getPersonData() {
