@@ -27,7 +27,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="minor changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/PersonEditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/PersonEdit.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/PersonOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/PersonOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/modules/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/modules/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/views/main.fxml" afterDir="false" />
     </list>
     <list id="a80afb92-1d7d-4d07-87ce-ffcc92d4cd53" name="minor changes" comment="minor gitignore changes" />
     <list id="f935a3da-a517-45f5-8507-f317dd5ed4aa" name="Revert &quot;minor changes&quot;" comment="Revert &quot;minor changes&quot;&#10;&#10;This reverts commit b6ca0a6a" />
@@ -82,6 +88,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -247,7 +254,7 @@
       <workItem from="1613756134252" duration="184000" />
       <workItem from="1614183506192" duration="1301000" />
       <workItem from="1614184813099" duration="221000" />
-      <workItem from="1614185038032" duration="514000" />
+      <workItem from="1614185038032" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1613660969652</created>
@@ -277,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613662222850</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor changes">
+      <created>1614185599522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614185599522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

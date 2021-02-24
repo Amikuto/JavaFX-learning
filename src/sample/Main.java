@@ -22,7 +22,7 @@ public class Main extends Application {
     private final ObservableList<Person> personData = FXCollections.observableArrayList();
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage){
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Address");
 
@@ -83,6 +83,10 @@ public class Main extends Application {
 
     public ObservableList<Person> getPersonData() {
         return personData;
+    }
+
+    public Stage getPrimaryStage(){
+        return primaryStage;
     }
 
     public static void main(String[] args) {
