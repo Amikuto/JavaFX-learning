@@ -26,7 +26,7 @@ public class DateUtil {
         }
     }
 
-    public static boolean validate(String dateString){
+    public static boolean validDate(String dateString){
         return DateUtil.parse(dateString) != null;
     }
 }

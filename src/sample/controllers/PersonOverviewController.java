@@ -85,4 +85,32 @@ public class PersonOverviewController {
             alert.showAndWait();
         }
     }
+
+    @FXML
+    private void handleNewPerson() {
+        Person tempPerson = new Person();
+        boolean okClicked = mainApp.showPersonEditDialog(tempPerson);
+        if (okClicked) {
+            mainApp.getPersonData().add(tempPerson);
+        }
+    }
+
+    @FXML
+    private void handleEditPerson() {
+        Person selectedPerson = personTableView.getSelectionModel().getSelectedItem();
+        if (selectedPerson != null) {
+            boolean okClicked = mainApp.showPersonEditDialog(selectedPerson);
+            if (okClicked) {
+                showPersonData(selectedPerson);
+            }
+        } else {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.initOwner(mainApp.getPrimaryStage());
+            alert.setContentText("Пожалуйста, выберите человека для редактирования!");
+            alert.setTitle("No selection");
+            alert.setHeaderText("No person selected");
+
+            alert.showAndWait();
+        }
+    }
 }
