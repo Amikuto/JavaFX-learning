@@ -9,6 +9,9 @@ public class Parser {
 
     private final Request request = new Request();
 
+    public Parser() throws IOException {
+    }
+
     public ArrayList<Object> getAll(Integer id) throws IOException {
 
         ArrayList<Object> data = new ArrayList();
@@ -29,20 +32,8 @@ public class Parser {
         data.add(city);
         data.add(postalCode);
         data.add(birthday);
+
         return(data);
-
-//        return(name, surname, street, city, postalCode, birthday);
-
-
-//        System.out.println(user);
-//
-//        System.out.println(name);
-//        System.out.println(surname);
-//        System.out.println(postalCode);
-//        System.out.println(street);
-//        System.out.println(city);
-//        System.out.println(birthday);
-
     }
 
     public String getName(Integer id) throws IOException {

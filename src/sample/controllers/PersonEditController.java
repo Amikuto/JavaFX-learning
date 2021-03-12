@@ -5,9 +5,13 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import sample.modules.Person;
+import sample.request.Request;
 import sample.utils.DateUtil;
 
+import java.io.IOException;
+
 public class PersonEditController {
+    public Request request = new Request();
 
     @FXML
     private TextField firstNameField;
@@ -30,6 +34,9 @@ public class PersonEditController {
     private Stage dialogStage;
     private Person person;
     private boolean okClicked = false;
+
+    public PersonEditController() throws IOException {
+    }
 
     @FXML
     private void initialize(){}
@@ -55,8 +62,16 @@ public class PersonEditController {
     }
 
     @FXML
-    private void handleOk(){
+    private void handleOk() throws IOException {
         if (isInputValid()) {
+            String name = firstNameField.getText();
+            String surname = lastNameField.getText();
+            String street = streetField.getText();
+            Integer postalCode = Integer.parseInt(postalCodeField.getText());
+            String city = cityField.getText();
+            String birthday = birthdayField.getText();
+            request.requestPOST(name, surname, postalCode, city, birthday, street);
+
             person.setFirstName(firstNameField.getText());
             person.setLastName(lastNameField.getText());
             person.setStreet(streetField.getText());

@@ -27,23 +27,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="fifth commit: now delete button works, added FXML file for editing person information">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20210307.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/request/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/request/ReqMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/request/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20201115.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaFX-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaFX-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_20210307.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2021_17_52__Default_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2021_17_52__Default_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Default]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Default]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Revert__third_commit__Added_DateU/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Revert__third_commit__Added_DateU/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37__Default_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37__Revert__third_commit__Added_DateU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_40_[Default]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_40_[Default]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_40__Default_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_43_[Default]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_43_[Default]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_43__Default_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_37_[Revert__third_commit__Added_DateU/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_40_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_02_2021_19_43_[Default]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/PersonEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/PersonEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/PersonOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/PersonOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/request/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/request/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/request/ReqMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/request/ReqMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/request/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/request/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/views/PersonEdit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/views/PersonEdit.fxml" afterDir="false" />
     </list>
     <list id="a80afb92-1d7d-4d07-87ce-ffcc92d4cd53" name="minor changes" comment="minor gitignore changes" />
     <list id="f935a3da-a517-45f5-8507-f317dd5ed4aa" name="Revert &quot;minor changes&quot;" comment="Revert &quot;minor changes&quot;&#10;&#10;This reverts commit b6ca0a6a" />
@@ -140,7 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaModules/json-20210307.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaModules/json-20201115.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -153,7 +152,7 @@
       <recent name="F:\Programming\Java\JavaFX-learning\src\sample\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReqMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -182,7 +181,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="JavaFX-learning" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;D:\Programming\JavaModules\openjfx-15.0.1_windows-x64_bin-sdk\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;F:\Programming\JavaModules\openjfx-15.0.1_windows-x64_bin-sdk\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -211,6 +210,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,6 +256,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ReqMain" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReqMain" />
